@@ -1,0 +1,49 @@
+				**** Anonymous Functions ****
+
+	- The function without name called as Anonymous Function.
+
+	- Anonymous Functions also called as "Arrow Functions".
+
+	- Arrow functions we will represent by using "=>" symbol.
+
+	- Arrow functions introduced in ES6.
+
+	- Arrow functions behaves like "CallBacks"
+
+	- Arrow functions performance is high Compared to Named Functions.
+
+	- Arrow functions utilizes the heap memory Efficiently (RAM Space).
+
+
+Syntax
+------
+
+//function definition
+
+var/let/const variablename = (arguments with datatype):returntype =>{
+	
+	//business logic
+
+};
+
+//call the function
+variablename(parameters);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+Abstract Classes
+----------------
+    - when ever we know partial implementations then we will choose Abstract Classes.
+
+    - implementations provided by 3rd party vendors (Classes).
+
+    - we will represent Abstract Classes by using "abstract" keyword.
+
+
+static
+------
+    - static members we can access directly with class names.
+    
+    - static members memory will be allotted in "heap area".
+
+    - we can't initilize static members by "constructors".
+
+    - we can't access static members by "class references" also.
+
+readonly
+--------
+    - readonly modifier introduced in TypeScript.
+
+    - by using readonly modifier we can only access the data, but we can't update it.
+
+    - we can initilize readonly members by using constructors.
+
+    - we can access readonly members by using class references also
+
+modifiers
+---------
+    - TypeScript Supports the following Modifiers.
+        @public
+        @private
+        @protected
+    - The Default modifier in TypeScript is "public".
+
+public
+------
+    public members have global scope.
+
+    public members available in entire project, anywhere we can access public members.
+
+    public modifier applicable to variables,functions and constructors.
+
+    public modifier won't applicable to classes.
+
+private
+-------
+    private members accessble with in the class.
+
+    private members won't accessble in child classes also.
+
+    private members we can access with in the class by using "this" keyword.
+
+    private modifier applicable to variables,functions and constructors also.
+
+    private modifier won't applicable to classes.
+
+    we can't access private members through class references.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

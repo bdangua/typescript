@@ -1,0 +1,46 @@
+
+    - particular business logic called as function.
+
+    - functions are used to reuse the business logic.
+
+    - we will define functions by using "function" keyword.
+
+    - as per ES6 Standards we have 5 Types of functions.
+
+            => Named Functions
+
+            => Anonymous Functions / 
+               Arrow Functions / 
+               CallBack Functions
+
+            => Rest Parameters in Functions
+
+            => Optional Parameters in Functions
+
+            => Default Parameters in Functions
+
+Named Functions
+---------------
+    - The function with the particular "user defined name"
+      called as Named Function.
+
+Syntax:
+-------
+    //function definition
+    function functionname(parameters with datatype)
+                                        :returntype{
+        //business logic
+    }
+
+    //call the function 
+    functionname(arguments);
+
+Ex:
+---
+    function fun_one():string{
+        retutn "welcome to ES6 Functions";
+    };    
+    fun_one();
+
+
+

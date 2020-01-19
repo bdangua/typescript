@@ -1,0 +1,93 @@
+Inheritance
+-----------
+
+	- Getting the properties from parent class to child classes called as Inheritance
+
+
+Types of Inheritance
+--------------------
+
+1) Single Level Inheritance
+
+2) Multi Level Inheritance
+
+3) Multiple Inheritance
+
+4) Hybrid Inheritance
+
+Single Level Inheritance
+------------------------
+
+	- In Single Level Inheritance we have only one Child Class.
+
+	- Child Class accessing the Data From Parent Class By Default.
+
+
+Multi Level Inheritance
+-----------------------
+
+	- if we have Grand Parent, Parent, Child, SubChild,....... relationship
+	  Between Classes then such type of Inheritance Called as Multilevel
+	  Inheritance
+
+
+Multiple Inheritance
+--------------------
+
+	- if "child class" extends from more than "one parent class" then such type of
+	  inheritance called as Multiple Inheritance.
+
+	- Multiple Inheritance Not Supported by TypeScript.
+
+
+HyBrid Inheritance
+------------------
+
+	- Combination of Multiple and Multilevel inheritance Called as HyBrid Inheritance
+
+	- HyBird Inheritance Not Supported By TypeScript.
+
+
+super
+-----
+
+	- Super keyword used to access(call) the parent class members to child classes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+**** Rest Parameters in Functions ****
+
+
+	- "..." representing Rest Argument in functions
+
+	- "..." also called as spread operator.
+
+	- spread operator introduced in ES6.
+
+	- spread operator used to hold the multiple values.
+
+
+			**** Optional Parameters in Functions ****
+
+
+	- Optional Parameters we will represent with the help of "?"
+
+	- while calling the functions, few parameters are optional 
+	  (no need to pass parameters)
+
+	- Optional Parameters introduced in ES6.

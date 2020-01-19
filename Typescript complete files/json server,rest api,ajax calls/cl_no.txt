@@ -1,0 +1,175 @@
+JSON Server
+-----------
+
+	- JSON Server is the ligth weight server.
+
+	- JSON Server used to develop the Rest API'S.
+
+	- we will consume Rest API'S By Using Asynchronous Calls.
+
+	- we will install JSON Server by using following command.
+
+		> npm install -g json-server@latest
+
+		- "npm" stands for node packaging manager.
+
+		- "npm" is the inbuilt tool of node js.
+
+		- "-g" stands for global installation.
+
+	- we will deploy JSON Files in JSON Server by using following comnand.
+
+		> json-server --watch sample.json
+
+	- By Default JSON Server running on port no.3000
+
+	- we will test rest apis by using Postman.
+
+
+Rest API'S:
+-----------
+
+1) http://localhost:3000/employees       (GET)
+
+	- above rest api call will gives the all employees details
+
+
+2) http://localhost:3000/employees/3     (GET)
+
+	- above rest api call will gives the particular employee data.
+
+3) http://localhost:3000/employees       (POST)
+
+	body  ---   {
+                         "id":6,
+			 "name":"employee_six",
+	                 "sal":600000
+		    }
+
+	- above rest api adds the "6th employee details" to sample.json file with the
+	  help of JSON Server.
+
+
+4) http://localhost:3000/employees/6      (PUT)
+
+
+	body --- {
+			"id":6,
+			"name":"e_six",
+			"sal":60000
+		 }
+
+
+
+	- above rest api updates the "6th employee data"
+
+
+5) http://localhost:3000/employees/6      (DELETE)
+
+	- above rest api deletes the "6th employee data"
+
+
+
+
+AJAX Calls
+----------
+	- we will make AJAX Calls by using Jquery library.
+
+	- we will include jQuery library by using following CDN.
+
+		<head>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/
+				    3.4.1/jquery.min.js"></script>
+		</head>
+
+
+
+Ex_1:
+
+	URL : https://restcountries.eu/rest/v2/all
+
+
+
+Ex_2:
+	URL : https://www.w3schools.com/angular/customers.phpons
+
+
+Promises in JavaScript
+----------------------
+
+	- Special JavaScript Objects called as Promises.
+
+	- Promises establishes the communication Between Producer and Consumer.
+
+	- Promises have following States
+
+		@success
+
+		@failure
+
+		@pending
+
+	- we will create Promises by using "Promise" class constructor.
+
+	- we will consume Promises by using then() function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

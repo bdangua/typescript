@@ -1,0 +1,173 @@
+<!--
+    Promises with AJAX
+    URL : https://www.w3schools.com/angular/customers.php
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script>
+            let my_promise = new Promise((resolve,reject)=>{
+                $.ajax({
+                    method:"GET",
+                    url:"https://www.w3schools.com/angular/customers.php",
+                    success:(posRes)=>{
+                        resolve(posRes);
+                    },
+                    error:(errRes)=>{
+                        reject(errRes);
+                    }
+                });
+            });
+            my_promise.then((res)=>{
+                console.log(res);
+            },(err)=>{
+                console.log(err);
+            })
+        </script>
+    </body>
+</html>
+-->
+
+<!--
+    Series of AJAX Calls
+    URL_1: https://restcountries.eu/rest/v2/all
+    URL_2: https://www.w3schools.com/angular/customers.php
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script>
+            function seriesCalls(){
+                $.ajax({
+                    method:"GET",
+                    url:"https://restcountries.eu/rest/v2/all",
+                    success:(posRes)=>{
+                        console.log(posRes);
+                        
+                        /***************************************************/
+                            $.ajax({
+                                method:"GET",
+                                url:"https://www.w3schools.com/angular/customers.php",
+                                success:(posRes)=>{
+                                    console.log(posRes);
+                                },
+                                error:(errRes)=>{
+                                    console.log(errRes);
+                                }
+                            });
+                        /***************************************************/
+                    },
+                    error:(errRes)=>{
+                        console.log(errRes);
+                    }
+                });
+            };    
+            seriesCalls();
+        </script>
+    </body>
+</html>
+-->
+
+
+<!--
+    URL : http://test-routes.herokuapp.com/test/uppercase
+    (POST)
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script>
+            function myFun(){
+                $.ajax({
+                    method:"POST",
+                    url:"http://test-routes.herokuapp.com/test/uppercase",
+                    data:{message:"angular"},
+                    success:(posRes)=>{
+                        console.log(posRes);
+                    },
+                    error:(errRes)=>{
+                        console.log(errRes);
+                    }
+                });
+            };    
+            myFun();
+        </script>
+    </body>
+</html>
+-->
+
+<!--
+    async / await
+
+    - async / await keywords introduced in ES9.
+
+    - async / await keywords eliminates the usage of 
+    "then()", while consuming(making) ajax calls.
+
+    - because of async / await "application performance" will be improved.
+
+    - because of async / await "application readability" will be incresed.
+
+    - we can overcome "call back hell" problems with the help of async / await
+
+Step 1:
+    create the products.json file
+
+Step 2.
+    deploy json file in json-server
+
+    > cd Desktop
+    > json-server --watch products.json
+
+Step 3.
+    consume Rest API call by using AJAX.
+    URL : http://localhost:3000/products
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script>
+            function getProducts(){
+                $.ajax({
+                    method:"GET",
+                    url:"http://localhost:3000/products",
+                    success:(posRes)=>{
+                        console.log(posRes);
+                    },
+                    error:(errRes)=>{
+                        console.log(errRes);
+                    }
+                });
+            };
+            async function myFun(){
+                let res = await getProducts();
+                console.log(res);
+            };
+            myFun();
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

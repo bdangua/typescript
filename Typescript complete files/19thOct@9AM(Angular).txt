@@ -1,0 +1,41 @@
+JSON
+----
+	- JSON Stands for Java Script Object Notation.
+
+	- JSON Used to transfer the Data Over the Network.
+
+	- JSON also called as JavaScript Objects.
+
+	- JSON is ligth weigth Compared to XML.
+
+	- Parsing(Reading) of JSON Eazy Compared to XML.
+
+Syntax
+------
+
+Objects ---  {}
+
+Arrays  --   []
+
+data    --   key & value pairs
+
+	     key & value separated by using ":"
+
+	     key & value pairs separated by using ","
+
+
+
+
+
+		=> https://goo.gl/R9rrTN
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+	- Collections of variables and functions called as Class.
+
+	- Encapsulation of Variables and functions also called as Class.
+
+	- we will define classes by using "class" keyword.
+
+	- we will create the Object to the classes by using "new" keyword.
+
+	- The Recomended Modifier for variables is "private".
+
+	- The Recomended Modifier for functions is "public".
+
+	- we will define constructors by using "constructor" keyword.
+
+Syntax
+------
+class classname{
+
+	variables declaration with datatype
+
+	constructor(arguments with datatype){
+		
+		//initilization logic
+	};
+
+	functions definitions with arguments and returntype
+};
+
+
+var/let/const objname:classname = new classname(parameters);
+
+
+

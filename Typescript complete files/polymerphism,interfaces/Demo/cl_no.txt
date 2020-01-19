@@ -1,0 +1,33 @@
+Polymorphism
+------------
+	- behaves like many called as Polymorphism.
+
+	- Polymorphism have two types.
+
+		1) function overriding
+
+		2) function overloading
+
+	- overriding the parent class functionality with child
+	  class functionality called as function overriding.
+
+	- same function with "different arguments holding 
+	  (rest arguments)" called as function overloading
+
+
+Interfaces
+----------
+
+	- if we know only declarations, but we don't know 
+	  implementations
+	  then we will choose Interfaces.
+
+
+	- implementation known by 3rd party vendors.
+
+	- In General implmentation provided by 
+	  either JSON or Classes in TypeScript.
+
+
+
+

@@ -1,0 +1,107 @@
+Differences Between var & let keyword
+-------------------------------------
+1) "variable hoisting" issue raised because 
+    of var keyword.
+
+        - as a developer, if we try to access the 
+          variable before it's initilization, javascript
+          result is "undefined" insted of "error".
+
+        - assigning "undefined" insted of "error" called 
+          as variable hoisting.
+
+    we will overcome "variable hoisting" issue by using 
+    "let" keyword
+
+2) "var" keyword breaks the scope rule
+   "let" keyword obeys the scope rule
+
+
+3) global polluting issue raised because of "var" 
+   keyword 
+
+        - if block code effecting global members called
+          as global polluting issue.
+
+    we can overcome global polluting issue by using "let"
+    keyword.
+
+4) "var" keyword allows the duplicate members.
+
+    "let" keyword won't allows the duplicate members.
+
+
+                var                     let
+-------------------------------------------------------------------------
+
+1) var keyword introduced in ES1    1) let keyword introduced in ES5
+
+2) "var" keyword related members    2) let keyword related
+   not the block scoped members        members are block scoped members
+
+3) "var" keyword allows the         3) "let" keyword wont allows 
+   duplicate members                   the duplicate members
+
+4) "var" keyword breaks the         4) "let" keyword obeys
+   scope rule                           the scope rule
+
+5) variable hoisting issue          5) we can overcome 
+   raised because of var keyword.      variable hoisting issue by using "let" keyword
+
+6) global polluting issue raised    6) we can overcome 
+   because of "var" keyword.           global polluting issue by using "let" keyword
+
+
+                    **** const ****
+
+
+    - "const" is the keyword introduced in ES5.
+
+    - "const" members, we can't reassign.
+
+
+Questions :
+
+1) in how many ways can we declare variables ??
+
+2) what are the Differences Between "var" & "let" ??
+
+3) what is the significance of "const" ??
+
+4) what is variable hoisting ??
+
+5) what is global polluting issue ??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
